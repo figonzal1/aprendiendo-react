@@ -4,6 +4,8 @@ export interface Product {
   id: number;
   price: number;
   quantity: number;
+  thumbnail: string;
+  title: string;
 }
 
 interface CartContextProps {

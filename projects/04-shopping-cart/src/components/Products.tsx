@@ -3,7 +3,7 @@ import { AddToCartIcon, RemoveFromCartIcon } from "./Icons";
 import "./Products.css";
 
 const Products = ({ products }: any) => {
-  const { addCart, cart, removeFromCart, clearCart } = useCart();
+  const { addCart, cart, removeFromCart } = useCart();
   return (
     <main className="products">
       <ul>
